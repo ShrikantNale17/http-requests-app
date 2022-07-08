@@ -1,0 +1,26 @@
+
+table {
+  width: 100%;
+}
+
+.mat-elevation-z8 {
+  margin: 30px;
+}
+
+th.mat-header-cell, td.mat-cell{
+  padding: 0px 10px;
+}
+
+.mat-row .mat-cell {
+  border-bottom: 1px solid transparent;
+  border-top: 1px solid transparent;
+  cursor: pointer;
+}
+
+.mat-row:hover .mat-cell {
+  border-bottom: 1px solid rgb(229, 231, 231);
+  border-top: 1px solid rgb(229, 231, 231);
+  /* border-color: aliceblue; */
+  background-color: rgb(229, 231, 231);
+
+}
